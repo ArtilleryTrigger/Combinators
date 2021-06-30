@@ -1,0 +1,29 @@
+/*Combinators (birleştirici) selector (çağırıcı)
+element selector p{}
+id selector #
+class selector .
+universal *
+grouping selector p,h1,h2 {}
+element  class p.hello {}
+*/
+
+/*Descendant Slctr*/
+/*div p{
+    background-color: royalblue;
+    color: white;
+}*/ /*1 2 3 4 ü boyadı*/
+
+/*Child Slcty*/
+/*div > p{
+    background-color: yellowgreen;
+} */  /*1 2 4 ü boyadı çünkü 3 section içinde yani child div için bir altını alıyor*/
+
+/*Adj Sibling Slctr */
+/*div + p{
+    background-color: tomato;
+}*/ /*div in bittiği ilk p yi boyuyor sonraki p leri almıyor sadece 5 i boyadı*/
+
+/*General Sibling Slctr*/
+/*div ~ p{
+    background-color: turquoise;
+}*/ /*div den sonraki tüm p leri alır 5 ve 6 yı boyadı*/
